@@ -35,7 +35,7 @@ const Home = () => {
         title="Create profiles for kids"
         text="Send kids on adventures with their favorite characters in a space made just for them-free with your membership."
       ></Body>
-      <div className="bg-black flex flex-col justify-center  items-center  pt-12 border-b-8 border-neutral-800">
+      <div className="bg-black flex flex-col justify-center  items-center  pt-12 border-b-8 border-gray-800">
         <h1 className="font-sans text-5xl text-white font-bold tracking-normal no-underline pb-4">
           Frequntley Asked Questions
         </h1>

@@ -50,7 +50,7 @@ const Login = () => {
   };
 
   return (
-    <div className="relative text-center bg-gradient-to-r from-slate-900 via-slate-700 to-slate-600 border-b-8 border-neutral-800">
+    <div className="relative text-center bg-gradient-to-r from-gray-900 via-gray900 to-gray-800  border-b-8 border-gray-800">
       <div className="flex w-full justify-between items-center absolute px-16">
         <div className="cursor-pointer z-20 " onClick={() => navigate("/")}>
           <img className="h-28" src={logo} alt="logo"></img>
@@ -63,7 +63,7 @@ const Login = () => {
           </h2>
           <input
             name="username"
-            className="mb-4 bg-stone-600 w-80 py-3.5 rounded-lg text-white pl-4"
+            className="mb-4 bg-gray-800 w-80 py-3.5 rounded-lg text-white pl-4"
             placeholder="Username"
             type="text"
             value={username}
@@ -76,7 +76,7 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
-            className="mb-4 bg-stone-600 w-80 py-3.5 rounded-lg text-white pl-4"
+            className="mb-4 bg-gray-800 w-80 py-3.5 rounded-lg text-white pl-4"
           ></input>
           <span className="text-amber-600 w-80">{error.password}</span>
           <input
@@ -85,7 +85,7 @@ const Login = () => {
             onChange={(e) => setImagee(e.target.value)}
             type="text"
             placeholder="Place image URL for Avatar"
-            className="mb-4 bg-stone-600 w-80 py-3.5 rounded-lg text-white pl-4"
+            className="mb-4 bg-gray-800 w-80 py-3.5 rounded-lg text-white pl-4"
           ></input>
           <div>
             <button
@@ -96,14 +96,14 @@ const Login = () => {
             </button>
           </div>
           <div className="pt-20">
-            <p className="text-stone-500 font-sans text-sm font-normal tracking-normal no-underline pb-4 text-left">
+            <p className="text-gray-700 font-sans text-sm font-normal tracking-normal no-underline pb-4 text-left">
               New to Netflix?
               <span className="text-white ml-2 cursor-pointer font-sans text-sm font-normal tracking-normal no-underline pb-4 text-left">
                 Sign Up Now.
               </span>
             </p>
             <div>
-              <p className="text-stone-500 font-sans text-sm font-normal tracking-normal no-underline pb-4 text-left">
+              <p className="text-gray-700 font-sans text-sm font-normal tracking-normal no-underline pb-4 text-left">
                 Image URL is optional !!!
               </p>
             </div>
@@ -111,7 +111,7 @@ const Login = () => {
         </div>
       </div>
       <img
-        className="bg-cover bg-no-repeat bg-center mix-blend-overlay h-[850px] z-30"
+        className="bg-cover bg-no-repeat bg-center mix-blend-overlay  z-30"
         src={header}
         alt="header"
       ></img>

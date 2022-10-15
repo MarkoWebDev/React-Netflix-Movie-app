@@ -10,7 +10,7 @@ const Accordion = ({ title, text }) => {
   return (
     <div className="flex flex-col w-full mb-2 cursor-pointer">
       <div
-        className="flex justify-between w-[850px] h-20 font-light bg-neutral-800 items-center"
+        className="flex justify-between w-[850px] h-20 font-light bg-gray-800 items-center"
         onClick={openAccordion}
       >
         <div>

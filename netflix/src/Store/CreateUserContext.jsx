@@ -3,7 +3,7 @@ import { UserReducer } from "../UserReducer";
 
 export const UserContext = createContext();
 
-export const CreateUserContext = ({ children }) => {
+const CreateUserContext = ({ children }) => {
   const getFromLocal = () => {
     const storage = localStorage.getItem("user");
     if (!storage) {

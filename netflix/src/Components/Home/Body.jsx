@@ -4,7 +4,7 @@ const Body = ({ reverse, title, text, img }) => {
   return (
     <div>
       {!reverse ? (
-        <div className="flex justify-center w-full items-center bg-black border-b-8 border-neutral-800">
+        <div className="flex justify-center w-full items-center bg-black border-b-8 border-gray-800">
           <div className="flex flex-col text-white max-w-lg">
             <h2 className="font-sans text-4xl text-white font-bold tracking-normal no-underline pb-4">
               {title}
@@ -18,7 +18,7 @@ const Body = ({ reverse, title, text, img }) => {
           </div>
         </div>
       ) : (
-        <div className="flex justify-center w-full items-center bg-black border-b-8 border-neutral-800">
+        <div className="flex justify-center w-full items-center bg-black border-b-8 border-gray-800">
           <div>
             <img src={img} alt="tv"></img>
           </div>

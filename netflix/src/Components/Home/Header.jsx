@@ -17,7 +17,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col relative text-center bg-gradient-to-r from-slate-900 via-slate-700 to-slate-600 border-b-8 border-neutral-800">
+    <div className="flex flex-col relative text-center bg-gradient-to-r from-gray-900 via-gray900 to-gray-800 border-b-8 border-gray-800">
       <div className="flex w-full justify-between items-center absolute px-16 z-30">
         <div>
           <img className="h-28" src={logo} alt="netflix"></img>
