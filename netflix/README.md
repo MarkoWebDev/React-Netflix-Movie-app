@@ -1,1 +1,1 @@
-![image](src/images/readmeImage.png)
+![image](src/images/netflix-home.png)
